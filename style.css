@@ -17,5 +17,58 @@
 body {
     font-family: 'Raleway', sans-serif;
     min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.container {
+    margin: 0 auto;
+}
+
+/*Left side */
+
+.left-card {
+    background-color: var(--dark-blue);
+    padding: 40px;
+    border-radius: 10px 90px 10px 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.folder-icons {
+    margin-top: 1rem;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-card .logo-img {
+    width: 60%;
+}
+
+.img-box {
+    background-color: var(--very-dark-blue);
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.img-box img {
+    width: 20px;
+}
+
+.img-box .doc1{
+    height: 18px;
+}
+
+/*Left side */
 
